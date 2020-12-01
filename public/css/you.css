@@ -23,6 +23,7 @@ ul {
   list-style: none;
 }
 li {
+  animation: text-appearance 1s;
   color: lightseagreen;
   padding: 0 50px;
   font-family: "Playfair Display";
@@ -30,4 +31,12 @@ li {
 }
 .span-text {
   color: rgb(36, 41, 38);
+}
+@keyframes text-appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
