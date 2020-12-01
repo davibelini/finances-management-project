@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000 || process.env.PORT
+const mysql = require('mysql')
 
 app.use(express.static('./public'))
 app.set('view engine', 'ejs')
